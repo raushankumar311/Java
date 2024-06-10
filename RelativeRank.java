@@ -13,7 +13,7 @@ public class RelativeRank {
 
       Map<Integer, Integer> hm = new HashMap<>();
       for (int i = 0; i < n; i++) {
-         hm.put(i, score[i]);
+         hm.put(i, score[i]); //(key, value)
       }
       List<Map.Entry<Integer, Integer>> list = new ArrayList<>(hm.entrySet());
 
